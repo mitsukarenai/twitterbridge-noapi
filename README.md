@@ -21,14 +21,14 @@ Usage
 
 ##Examples:##
 
- - @Mitsukarenai's timeline, in plaintext:	http://my.website.com/folder/?u=text_mitsukarenai
- - (same):					http://my.website.com/folder/?u=zkfa_mitsukarenai
- - @Mitsukarenai's timeline, in JSON:		http://my.website.com/folder/?u=json_mitsukarenai
- - @Mitsukarenai's timeline, in ATOM:		http://my.website.com/folder/?u=atom_mitsukarenai
- - search keyword "pizza", in ATOM:		http://my.website.com/folder/?q=atom_pizza
- - search hashtag "#PRISM", in JSON:		http://my.website.com/folder/?q=json_%23PRISM
- - search words "Hello" & "World" in plaintext:	http://my.website.com/folder/?q=text_hello+world
- - search string "Hello World", in plaintext:	http://my.website.com/folder/?q=text_%22hello+world%22
+ - @Mitsukarenai's timeline, in plaintext:```http://my.website.com/folder/?u=text_mitsukarenai```
+ - (same): ``` http://my.website.com/folder/?u=zkfa_mitsukarenai```
+ - @Mitsukarenai's timeline, in JSON:```http://my.website.com/folder/?u=json_mitsukarenai```
+ - @Mitsukarenai's timeline, in ATOM:```http://my.website.com/folder/?u=atom_mitsukarenai```
+ - search keyword "pizza", in ATOM:```http://my.website.com/folder/?q=atom_pizza```
+ - search hashtag "#PRISM", in JSON:```http://my.website.com/folder/?q=json_%23PRISM```
+ - search words "Hello" & "World" in plaintext:```http://my.website.com/folder/?q=text_hello+world```
+ - search string "Hello World", in plaintext:```http://my.website.com/folder/?q=text_%22hello+world%22```
 
 Summary: the first 4 characters of the request tell the output format (json or atom, else plaintext). The fifth character is a separator (like "_", can be anything), the following characters are either the username (?u=) or the search keyword(s)  (?q=).
 
@@ -79,7 +79,7 @@ json:
 ```
 
 atom:
-```atom
+```xml
 <entry><author><name>AC534</name><uri>https://twitter.com/AC534</uri></author>
 <title type="html"><![CDATA[https://twitter.com/AC534/status/361831242523619331]]></title>
 <link rel="alternate" type="text/html" href="https://twitter.com/AC534/status/361831242523619331" />
