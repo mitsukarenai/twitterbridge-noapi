@@ -11,6 +11,7 @@ function returnError($code, $message) {
 }
 
 /*  Get PHP Simple HTML DOM Parser from:    http://simplehtmldom.sourceforge.net/    */
+if (!file_exists('simple_html_dom.php')) { returnError('404 Not Found', 'ERROR: "PHP Simple HTML DOM Parser" is missing. Get it from http://simplehtmldom.sourceforge.net/  and place the script "simple_html_dom.php" in the same folder to allow me to work.'); }
 require_once('simple_html_dom.php');
 
 if (isset($_GET['q'])) {   /* keyword search mode */
