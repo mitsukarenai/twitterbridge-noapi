@@ -5,7 +5,9 @@ Yet another Twitter "bridge" to enjoy timelines and searches without API key
 
 ### NEW:
 
-Sebsauvage and other devs started a project to provide feed bridges for various websites: [rss-bridge](https://github.com/sebsauvage/rss-bridge). The Twitter module is based on twitterbridge-noapi, and includes new stuff. Check it out ! :smile: 
+Sebsauvage and other devs includinng me have started a project to provide "feed bridges" for various websites with poor or no RSS/ATOM feed: [rss-bridge](https://github.com/sebsauvage/rss-bridge). The Twitter module is based on twitterbridge-noapi, and includes new stuff. Check it out ! :smile: 
+
+twitterbridge-noapi is therefor DEPRECATED unless you need standalone code to build on or learn all the shit you must do when working on Twitter.
 
 License
 ===================
